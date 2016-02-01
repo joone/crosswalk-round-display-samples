@@ -1,0 +1,14 @@
+{
+  "name": "Weather demo",
+  "xwalk_version": "0.0.2",
+  "start_url": "index.html",
+  "xwalk_package_id": "com.joone.weather",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "200x150",
+      "type": "image/png",
+      "density": "4.0"
+    }
+  ]
+}
