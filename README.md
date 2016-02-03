@@ -1,7 +1,7 @@
 ## Crosswalk
 [Crosswalk](http://crosswalk-project.org) is a web runtime for mobile and desktop
-web applications. Crosswalk has experimentally implemented CSS Round Display
-specifications for Android Wear.
+web applications. It has experimentally implemented CSS Round Display
+specifications for Android Wear so the latest spec changes could not be applied.
 
 ## CSS Round Display
 [CSS Round Display](https://drafts.csswg.org/css-round-display/) is CSS specifications
