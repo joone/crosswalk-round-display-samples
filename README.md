@@ -17,7 +17,7 @@ You can easily package your Crosswalk application with [crosswalk app tools](htt
 
 2. Extract it to $HOME/Downloads/.
 3. Clone this repository and change to the directory:
-`` cd ~\git/crosswalk-round-display-samples`` 
+`` cd ~/git/crosswalk-round-display-samples`` 
 
 4. Choose a sample directory and run crosswalk-pkg tools:
 ```
