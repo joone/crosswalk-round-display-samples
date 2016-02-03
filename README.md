@@ -24,6 +24,12 @@ You can easily package your Crosswalk application with [crosswalk app tools](htt
 $ crosswalk-pkg -p android -c ~/Download/crosswalk-16.45.421.19-round-display polar
 $ adb install -r com.joone.polar-0.1-debug.armeabi-v7a.apk
 ```
+For shared-mode, you can only package HTML,CSS, JS and other resource files without Crosswalk engine. In this case, Crosswalk engine is shared with other Crosswalk Web applications.
+```
+$ crosswalk-pkg  -p android -a shared  -c ~/git/crosswalk/src/out/Release/xwalk_app_template weather
+```
+You can download Crosswalk engine for shared mode at [here](
+https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/XWalkRuntimeLib.apk).
 
 ## Build Crosswalk for Android
 * https://github.com/joone/wiki/wiki/Build-Crosswalk-for-Android-Wear
