@@ -1,7 +1,7 @@
 ## Crosswalk
 [Crosswalk](http://crosswalk-project.org) is a web runtime for mobile and desktop
-web applications. It has experimentally implemented CSS Round Display
-specifications for Android Wear so the latest spec changes could not be applied.
+web applications. CSS Round Display has been experimentally implemented in Crosswalk
+for Android wear so the latest spec changes could not be applied.
 
 ## CSS Round Display
 [CSS Round Display](https://drafts.csswg.org/css-round-display/) is CSS specifications
@@ -24,7 +24,7 @@ You can easily package your Crosswalk application with [crosswalk app tools](htt
 $ crosswalk-pkg -p android -c ~/Download/crosswalk-16.45.421.19-round-display polar
 $ adb install -r com.joone.polar-0.1-debug.armeabi-v7a.apk
 ```
-For shared-mode, you can only package HTML,CSS, JS and other resource files without Crosswalk engine. In this case, Crosswalk engine is shared with other Crosswalk Web applications.
+For [shared mode](https://crosswalk-project.org/documentation/shared_mode.html), you can only package HTML,CSS, JS and other resource files without Crosswalk engine. In this case, Crosswalk engine is shared with other Crosswalk Web applications on Android.
 ```
 $ crosswalk-pkg  -p android -a shared  -c ~/git/crosswalk/src/out/Release/xwalk_app_template weather
 ```
