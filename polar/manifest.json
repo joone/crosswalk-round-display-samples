@@ -1,6 +1,6 @@
 {
   "name": "Polar demo",
-  "xwalk_version": "0.0.2",
+  "xwalk_version": "0.0.3",
   "start_url": "index.html",
   "xwalk_package_id": "com.joone.polar"
 }

@@ -1,6 +1,6 @@
 {
   "name": "Facebook demo",
-  "xwalk_version": "0.0.2",
+  "xwalk_version": "0.0.3",
   "start_url": "circle.html",
   "xwalk_package_id": "com.joone.facebook"
 }
