@@ -25,42 +25,34 @@ p {
 	background-position: 0px 0px;
 }
 #item1 {
-	position: polar;
     polar-angle: 0deg;
     polar-distance: 80%;
 }
 #item2 {
-	position: polar;
     polar-angle: 45deg;
     polar-distance: 80%;
 }
 #item3 {
-	position: polar;
     polar-angle: 90deg;
     polar-distance: 80%;
 }
 #item4 {
-	position: polar;
     polar-angle: 135deg;
     polar-distance: 80%;
 }
 #item5 {
-	position: polar;
     polar-angle: 180deg;
     polar-distance: 80%;
 }
 #item6 {
-	position: polar;
     polar-angle: 225deg;
     polar-distance: 80%;
 }
 #item7 {
-	position: polar;
     polar-angle: 270deg;
     polar-distance: 80%;
 }
 #item8 {
-	position: polar;
     polar-angle: 315deg;
     polar-distance: 80%;
 }

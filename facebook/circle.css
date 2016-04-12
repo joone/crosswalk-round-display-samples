@@ -47,7 +47,6 @@ body {
     text-align: center;
 }
 #link{
-    position: polar;
     polar-angle: -90deg;
     polar-distance: 80%;
     width: 30px;
@@ -97,7 +96,6 @@ body {
 	text-align: center;
 }
 #profileImg {
-    position: polar;
     polar-angle: 0deg;
     polar-distance: 85%;
     polar-orientation: center;
@@ -106,49 +104,42 @@ body {
     background-image: url(assets/img.png);
 }
 #item1 {
-    position: polar;
     polar-angle: -40deg;
     polar-distance: 100%;
     polar-orientation: center;
     background-image: url(assets/facebookblue.png);
 }
 #item2 {
-    position: polar;
     polar-angle: -20deg;
     polar-distance: 100%;
     polar-orientation: center;
     background-image: url(assets/facebookblue.png);
 }
 #item3 {
-    position: polar;
     polar-angle: 20deg;
     polar-distance: 100%;
     polar-orientation: center;
     background-image: url(assets/facebookblue.png);
 }
 #item4 {
-    position: polar;
     polar-angle: 40deg;
     polar-distance: 100%;
     polar-orientation: center;
     background-image: url(assets/facebookblue.png);
 }
 #item5 {
-    position: polar;
     polar-angle: 155deg;
     polar-distance: 100%;
     polar-orientation: counter-center;
     background-image: url(assets/white.png);
 }
 #item6 {
-    position: polar;
     polar-angle: 180deg;
     polar-distance: 100%;
     polar-orientation: counter-center;
     background-image: url(assets/white.png);
 }
 #item7 {
-    position: polar;
     polar-angle: 205deg;
     polar-distance: 100%;
     polar-orientation: counter-center;
