@@ -59,3 +59,15 @@ PATCH=19
 $ adb shell 'pm list package -f' 
 $ adb shell pm uninstall -k com.joone.rd
 ```
+
+### Setup Android SDK
+Edit ~/.bashrc file and add the Android SDK tools path.
+```
+vi ~/.bashrc
+```
+Add the following lines in it. Make sure you’ve added the correct path of android tools path as shown below.
+```
+export ANDROID_HOME=/home/joone/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+```
+Save and close the file.
