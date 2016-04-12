@@ -15,7 +15,7 @@ for Android wear so the latest changes of the specification could not be applied
 You can easily package your Crosswalk application with [crosswalk app tools](https://github.com/crosswalk-project/crosswalk-app-tools)
 
 1. Download corsswalk_app_tools and set it up for Android.
-1. Download [Crosswalk web runtime built with CSS Round Display implementation](https://github.com/joone/crosswalk-round-display-samples/blob/master/crosswalk/crosswalk-16.45.421.19-round-dsplay.tar.gz) for Android Wear.
+1. Download Crosswalk web runtime built with CSS Round Display implementation( [x86](https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/crosswalk-19.49.506.0.x86-round-display.tar.gz),[arm](https://github.com/joone/crosswalk-round-display-samples/blob/master/crosswalk/crosswalk-16.45.421.19-round-dsplay.tar.gz)). for Android Wear.
 
 2. Extract it to $HOME/Downloads/.
 3. Clone this repository and change to the directory:
@@ -23,15 +23,19 @@ You can easily package your Crosswalk application with [crosswalk app tools](htt
 
 4. Choose a sample directory and run crosswalk-pkg tools:
 ```
-$ crosswalk-pkg -p android -c ~/Download/crosswalk-16.45.421.19-round-display polar
-$ adb install -r com.joone.polar-0.1-debug.armeabi-v7a.apk
+$ crosswalk-pkg -p android -c ~/Download/xwalk_app_template polar
+$ adb install -r com.joone.polar-0.1-debug.x86.apk
 ```
 For [shared mode](https://crosswalk-project.org/documentation/shared_mode.html), you can only package HTML,CSS, JS and other resource files without Crosswalk engine. In this case, Crosswalk engine is shared with other Crosswalk Web applications on Android.
 ```
 $ crosswalk-pkg  -p android -a shared  -c ~/git/crosswalk/src/out/Release/xwalk_app_template weather
 ```
-You can download Crosswalk engine for shared mode at [here](
-https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/XWalkRuntimeLib.apk).
+You can download Crosswalk engine for shared mode at the links below:
+* [x86](https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/XWalkRuntimeLibX86.apk)
+* [arm](https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/XWalkRuntimeLib.apk)
+
+## Download sample applications built with Crosswalk for Android Wear
+You can download Crosswalk sample applications for Android Wear at [here](https://github.com/joone/crosswalk-round-display-samples/tree/master/apk).
 
 ## Build Crosswalk for Android
 * https://github.com/joone/wiki/wiki/Build-Crosswalk-for-Android-Wear
