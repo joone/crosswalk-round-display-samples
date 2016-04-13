@@ -30,7 +30,7 @@ BUILD=421
 PATCH=19
 ```
 
-## Package round display applications with Crosswalk
+## Package CSS Round Display applications with Crosswalk
 You can easily package your Crosswalk application with [crosswalk app tools](https://github.com/crosswalk-project/crosswalk-app-tools)
 
 1. Download corsswalk_app_tools and set it up for Android.
