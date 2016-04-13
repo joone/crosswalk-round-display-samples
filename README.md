@@ -53,7 +53,7 @@ You can download Crosswalk engine for shared mode at the links below:
 * [x86](https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/XWalkRuntimeLibX86.apk)
 * [arm](https://github.com/joone/crosswalk-round-display-samples/raw/master/crosswalk/XWalkRuntimeLib.apk)
 
-## Download sample applications built with Crosswalk for Android Wear
+## Download CSS Round Display demo applications for Android Wear
 You can download Crosswalk sample applications for Android Wear at [here](https://github.com/joone/crosswalk-round-display-samples/tree/master/apk).
 
 ## Reference
